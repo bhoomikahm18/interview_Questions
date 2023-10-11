@@ -454,5 +454,13 @@ document.write(x+" "+y+" "+z+" "+n);
 }     
 display();
 
+70) What is the use of a Boolean object in JavaScript?
+A) The JavaScript Boolean is an object that represents value in two states: true or false. You can create the JavaScript Boolean object by Boolean() constructor.
+function display()  
+{  
+document.writeln(10<20);//true    
+document.writeln(10<5);//false     
+}     
+display();
 
 
