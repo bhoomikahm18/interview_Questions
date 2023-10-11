@@ -504,7 +504,7 @@ Example:  const str = "The quick brown fox jumps over lazy dog";
 	]
 
 77) Explain JavaScript Template literals ?
-A) Template literals is a string in JavaScript enclosed by backticks(`) allowing the programmer to perform string interpolation.
+ A) Template literals is a string in JavaScript enclosed by backticks(`) allowing the programmer to perform string interpolation.
 
 78) What are the methods used in Array?
 A) 1.Length: The length property inside an array holds the real-time length of the object. We can access the length property using (.) dot operator.
