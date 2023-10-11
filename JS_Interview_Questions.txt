@@ -473,7 +473,7 @@ display();
       * Reserved Keywords cannot be used as names in JavaScript. 
 
 73) What is string in JavaScript?
-A) String in JavaScript is an object that represents sequence of characters inside ' ' or " ".
+ A) String in JavaScript is an object that represents sequence of characters inside ' ' or " ".
 
 74) What is concat method?
 A) The concat() method concatinates the string argument to the calling string and returns the new string.
