@@ -476,11 +476,11 @@ display();
  A) String in JavaScript is an object that represents sequence of characters inside ' ' or " ".
 
 74) What is concat method?
-A) The concat() method concatinates the string argument to the calling string and returns the new string.
+ A) The concat() method concatinates the string argument to the calling string and returns the new string.
 Eg: const str1 = 'Hello';
-    const str2 = 'World';
-    console.log(str1.concat(' ', str2));  //Hello World
-    console.log(str2.concat(',', str1));  //World,Hello 
+      const str2 = 'World';
+      console.log(str1.concat(' ', str2));  //Hello World
+      console.log(str2.concat(',', str1));  //World,Hello 
 
 75) Explain slice() method.
 A) The slice() method extracts a section of a string and returns it as new string.
