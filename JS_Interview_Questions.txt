@@ -467,10 +467,10 @@ display();
  A) An identifier is the name given to a variable or a function or a class in a javascript program.
 
 72) What are the rules while declaring JavaScript Variable?
-A) * A name should start with letters (a-z & A-Z) or underscore(_) or $ dollar sign.
-   * It should not start with special characters and numbers.
-   * In JavaScript variables are case sensitive.
-   * Reserved Keywords cannot be used as names in JavaScript. 
+ A) * A name should start with letters (a-z & A-Z) or underscore(_) or $ dollar sign.
+      * It should not start with special characters and numbers.
+      * In JavaScript variables are case sensitive.
+      * Reserved Keywords cannot be used as names in JavaScript. 
 
 73) What is string in JavaScript?
 A) String in JavaScript is an object that represents sequence of characters inside ' ' or " ".
