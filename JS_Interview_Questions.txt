@@ -492,16 +492,16 @@ Example: const str = "The quick brown fox jumps over the lazy dog";
 
 76) Explain split() method.
 A) The method takes a pattern input and divides the original string into an array of substring. The following returns an array as an output. The pattern here is know as "delimiter".
-const str = "The quick brown fox jumps over lazy dog";
-const arr = str.split('');
-console.log(arr);  //[
-  'T', 'h', 'e', ' ', 'q', 'u', 'i',
-  'c', 'k', ' ', 'b', 'r', 'o', 'w',
-  'n', ' ', 'f', 'o', 'x', ' ', 'j',
-  'u', 'm', 'p', 's', ' ', 'o', 'v',
-  'e', 'r', ' ', 'l', 'a', 'z', 'y',
-  ' ', 'd', 'o', 'g'
-]
+Example:  const str = "The quick brown fox jumps over lazy dog";
+	const arr = str.split('');
+	console.log(arr);  //[
+	  'T', 'h', 'e', ' ', 'q', 'u', 'i',
+ 	 'c', 'k', ' ', 'b', 'r', 'o', 'w',
+	  'n', ' ', 'f', 'o', 'x', ' ', 'j',
+	  'u', 'm', 'p', 's', ' ', 'o', 'v',
+ 	 'e', 'r', ' ', 'l', 'a', 'z', 'y',
+ 	 ' ', 'd', 'o', 'g'
+	]
 
 77) Explain JavaScript Template literals ?
 A) Template literals is a string in JavaScript enclosed by backticks(`) allowing the programmer to perform string interpolation.
