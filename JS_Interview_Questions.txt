@@ -409,6 +409,10 @@ A) The three possible ways of defining a variable in JavaScript are:
 63) What is the difference between null & undefined?
 A) Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object.
 
+64) What is the difference between innerHTML & innerText?
+A) -> innerHTML – It will process an HTML tag if found in a string
+     -> innerText – It will not process an HTML tag if found in a string
+
 
 
 
