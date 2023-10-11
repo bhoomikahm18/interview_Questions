@@ -1,8 +1,8 @@
 1)What is JavaScript?
-JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
+ A) JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
 
 2)What is the difference between Java & JavaScript?
-Java:	                                      
+ A) Java:	                                      
 1.Java is an OOP programming language.	
 2.It creates applications that run in a virtual machine or browser.	
 3.Java code needs to be compiled.
@@ -13,25 +13,25 @@ JavaScript:
 3.JavaScript code are all in the form of text.
 
 3)What are the data types supported by JavaScript?
-The data types supported by JavaScript are: Undefined , Null, Boolean, String, Symbol, Number, Object
+ A)The data types supported by JavaScript are: Undefined , Null, Boolean, String, Symbol, Number, Object
 
 4)List some features of JavaScript.
- a) The primary features of JavaScript are: it is Lightweight & it is an Interpreted programming language which is Good for the applications which are network-centric. On top of this as the language uses most of the keywords in JAVA it is complementary to java language which most of the developers are familiar with. JavaScript blends well with HTML as it uses the DOM tree to intrepret HTML for us to play around with elements.
+ A) The primary features of JavaScript are: it is Lightweight & it is an Interpreted programming language which is Good for the applications which are network-centric. On top of this as the language uses most of the keywords in JAVA it is complementary to java language which most of the developers are familiar with. JavaScript blends well with HTML as it uses the DOM tree to intrepret HTML for us to play around with elements.
 
 5)Is JavaScript a case-sensitive language?
- a) Yes, JavaScript is a case sensitive language.  Here keywords, variable names, function names, and any other identifiers are to be used in the  program consistently and carefully.
+ A) Yes, JavaScript is a case sensitive language.  Here keywords, variable names, function names, and any other identifiers are to be used in the  program consistently and carefully.
 
 6)List some advantages of JavaScript.
- a) Few of the advantages in JavaScript are: 
+ A) Few of the advantages in JavaScript are: 
 In JS Server interaction is very less.
 The Feedback to the visitors is immediate.
 Interactivity is high as we can toggle the inputs inside browser developer tools and get an instant output.
 
 7)Difference between “ == “ and “ === “ operators.
- a) Both are comparison operators. The difference between both the operator is that “==” is used to compare values whereas, “ === “ is used to compare both values and types on LHS and RHS.
+ A) Both are comparison operators. The difference between both the operator is that “==” is used to compare values whereas, “ === “ is used to compare both values and types on LHS and RHS.
 
 8)Explain Hoisting in JavaScript.
- a) Hoisting is the default behaviour of JavaScript where all the variable and function declarations are moved on top of the function. 
+ A) Hoisting is the default behaviour of JavaScript where all the variable and function declarations are moved on top of the function. 
 Example: 
 function m1(){
 var a;
@@ -42,10 +42,10 @@ console.log(i); //Variable access is permitted because it is hoisted
 }
 
 9)What is the purpose of ‘This’ operator in JavaScript?
- a) The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.
+ A) The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.
 
 10)How to create an array in JavaScript?
- a) There are 3 ways to create an array in JavaScript.
+ A) There are 3 ways to create an array in JavaScript.
 By using array literal. 
 By creating an instance of Array.
 By using an Array constructor.
@@ -53,7 +53,7 @@ Let's see a simple code to create an array using object literal.
 var emp=["Shyam","Vimal","Ratan"];
 
 11)Is JavaScript a statically typed or a dynamically typed language?
- a) JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during run-time in contrast to a statically typed language, where the type of a variable is checked during compile-time.
+ A) JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during run-time in contrast to a statically typed language, where the type of a variable is checked during compile-time.
 For example, a variable that is assigned a number type can be converted to a string type:
 var a = 23;
 var a = "Hello World!";
@@ -308,6 +308,14 @@ try{
 }finally{
     Code runs either it finishes successfully or after catch
 }
+
+53) What are some of the built-in methods in JavaScript?
+ A) Date()-Returns the present date and time
+concat()-Joins two strings and returns the new string
+push()-Adds an item to an array
+pop()-Removes and also returns the last element of an array
+round()-Rounds of the value to the nearest integer and then returns it
+length()-Returns the length of a string
 
 
 
