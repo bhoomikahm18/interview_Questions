@@ -483,12 +483,12 @@ Eg: const str1 = 'Hello';
       console.log(str2.concat(',', str1));  //World,Hello 
 
 75) Explain slice() method.
-A) The slice() method extracts a section of a string and returns it as new string.
-const str = "The quick brown fox jumps over the lazy dog";
-console.log(str.slice(31)); //'the lazy dog'
-console.log(str.slice(4,19)); //'quick brown fox'
-console.log(str.slice(-4)); //'dog'
-console.log(str.slice(-9,-4)); //'lazy'
+ A) The slice() method extracts a section of a string and returns it as new string.
+Example: const str = "The quick brown fox jumps over the lazy dog";
+                  console.log(str.slice(31)); //'the lazy dog'
+                  console.log(str.slice(4,19)); //'quick brown fox'
+                  console.log(str.slice(-4)); //'dog'
+                   console.log(str.slice(-9,-4)); //'lazy'
 
 76) Explain split() method.
 A) The method takes a pattern input and divides the original string into an array of substring. The following returns an array as an output. The pattern here is know as "delimiter".
