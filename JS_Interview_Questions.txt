@@ -540,4 +540,7 @@ Example: const arr1 = [1, 2, 3, 4];
 80) What is search() method?
 A) The search() method executes a search for a match between a regular expression and the current string object.
 
+81) What is a regular expression?
+A) A regular expression is a sequence of characters that forms a search pattern. It is used to find patterns in strings or sets of strings.
+
 
