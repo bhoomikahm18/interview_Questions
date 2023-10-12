@@ -203,9 +203,13 @@ Server-side JavaScript is quite similar to Client-side JavaScript.
 Server-side JavaScript can be executed on a server. Eg: Node JS
 The server-side JavaScript is deployed once the server processing is done.
 
-38)Spread Operator(...).
+38)What is Spread Operator(...).
  A) It is an operater used to copy all properties in an object into a new object. 
-Eg:
+Example: function sum(x, y, z) {
+  	    return x + y + z;
+	}
+	const numbers = [1, 2, 3];
+	console.log(sum(...numbers));   // Expected output: 6
 
 39)What are generator functions?
  A) Generator functions are declared with a special class of functions and keywords using function*. It does not execute the code, however, it returns a generator object and handles the execution.
