@@ -345,24 +345,31 @@ Angular - Frontend development of a web application
 Node - Backend or server-side development of a web application
 
 56) What is the difference between Call and Apply? (explain in detail with examples)
-A) ->Call: Call uses arguments separately.
-Example:
-function sayHello()
-{
-  return "Hello " + this.name;
-}      
-var obj = {name: "Sandy"};      
-sayHello.call(obj);
-// Returns "Hello Sandy"
+A) -> call() Method
+The call() is a method in JavaScript that helps us to call a function with a given object as the 'this' value. The call() method takes all the arguments individually.
+-> apply() Method
+The apply() method is similar to the call() method. The only difference is that the apply() method takes an array as the argument whereas they were taken individually as arguments in the case of the call() method.
+->bind() Method
+The bind() method is used to create a new function from another function with a given object as the this argument. It creates a copy of the function and then binds it to the object for which it was called. It does not immediately invoke the function and the new copy needs to be invoked separately.
+const personOne = {
+  firstName : "Elon",
+  secondName : "Musk"
+}
+const getFullName = function(company, country) {
+  console.log(this.firstName + " " + this.secondName + ", " + company + ", " + country);
+}
+const personTwo = {
+  firstName : "Mark",
+  secondName : "Zuckerburg"
+}
+getFullName.call(personOne, "Tesla", "United States");    // outputs Elon Musk, Tesla, United States
+getFullName.call(personTwo, "Facebook", "United States");    // outputs Mark Zuckerberg, Facebook, United States
 
-->Apply: Apply uses an argument as an array.
-Example:
-function saySomething(message)
-{
-  return this.name + " is " + message;
-}        
-var person4 = {name:  "John"};
-saySomething.apply(person4, ["awesome"]);
+getFullName.apply(personOne, ["Tesla", "United States"]);    // outputs Elon Musk, Tesla, United States
+getFullName.apply(personTwo, ["Facebook", "United States"]);    // outputs Mark Zuckerberg, Facebook, United States
+
+const getPersonOneDetails = getFullName.bind(personOne, ["Tesla", "United States"]); 
+getPersonOneDetails();    // outputs Elon Musk, Tesla, United States
 
 57) Implicit Type Coercion in javascript (in detail with examples)
 A) When the value of one data type is automatically converted into another data type, it is called Implicit type coercion in javascript.
