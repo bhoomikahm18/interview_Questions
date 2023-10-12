@@ -548,5 +548,14 @@ A) In regular expression matching, greedy matching means that the regular expres
 
 83) What are quantifiers used for in regular expressions?
 A) Quantifiers are used to specify how many times a character, group, or element can occur in a given regular expression. For example, the quantifier “*” means that the character, group, or element can occur zero or more times, while the quantifier “+” means that the character, group, or element must occur at least once.
+Example: var str = "Hello, welcome to edureka! 1 12 123";
+	var quant1 = /e+/g;
+	var quant2 = /el*/g;
+	var quant3 = /1?/g;
+	var quant4 = /d{2}/g;
+	Output: e,e,e,e,e
+	ell,el,e,e,e
+	,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,,,1,,,
+	12,12
 
 
