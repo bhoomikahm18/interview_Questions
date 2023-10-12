@@ -634,11 +634,13 @@ A) The pipe ‘|’ symbol in a Regular Expression (regex) is used as a logical 
 A) ‘\d’, ‘\w’, and ‘\s’ are metacharacters in Regular Expressions, each with a unique function. ‘\d’ matches any digit from 0-9. It’s equivalent to [0-9]. On the other hand, ‘\w’ matches any alphanumeric character including underscore (). It is synonymous with [a-zA-Z0-9]. Lastly, ‘\s’ matches any whitespace character: spaces, tabs, line breaks etc. These metacharacters simplify pattern matching by representing common groups of characters.
 
 99) What is regular expression flags ?
-A) Ragular expression flags sometimes called as modifiers , they are effect the way of pattren matching.
-Different kinds of flags available
-/g,/i etc.
+A) Regular expression flags sometimes called as modifiers , they are effect the way of pattren matching.
+Different kinds of flags available: /g,/i etc.
 
 100) Is regular expression different in all languages?
 A) The syntax may vary slightly in other languages but has the same concept. The specific meaning of the metacharacters may also vary.
+
+101) What is a promise?
+A) A promises in JavaScript are used o handle asynchronous operations. A promise is an object that keeps track about whether a certain events happened already or not. It also determines what will happen after an event.
 
 
