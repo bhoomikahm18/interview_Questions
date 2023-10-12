@@ -637,3 +637,8 @@ A) ‘\d’, ‘\w’, and ‘\s’ are metacharacters in Regular Expressions, e
 A) Ragular expression flags sometimes called as modifiers , they are effect the way of pattren matching.
 Different kinds of flags available
 /g,/i etc.
+
+100) Is regular expression different in all languages?
+A) The syntax may vary slightly in other languages but has the same concept. The specific meaning of the metacharacters may also vary.
+
+
