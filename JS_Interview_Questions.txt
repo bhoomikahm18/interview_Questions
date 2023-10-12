@@ -546,4 +546,7 @@ A) A regular expression is a sequence of characters that forms a search pattern.
 82) What’s the difference between greedy and nongreedy matching?
 A) In regular expression matching, greedy matching means that the regular expression engine will try to match as much of the string as possible. Non-greedy matching means that the engine will try to match as little of the string as possible.
 
+83) What are quantifiers used for in regular expressions?
+A) Quantifiers are used to specify how many times a character, group, or element can occur in a given regular expression. For example, the quantifier “*” means that the character, group, or element can occur zero or more times, while the quantifier “+” means that the character, group, or element must occur at least once.
+
 
