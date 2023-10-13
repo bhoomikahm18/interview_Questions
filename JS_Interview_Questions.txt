@@ -793,3 +793,6 @@ Example: do {
 	  // loop body
 	} while (condition);
 
+123) How does a for-loop function in JavaScript?
+A) The for loop defines an initial point, condition, and steps. The initial point runs once when entering the loop. Before each iteration, the condition is evaluated. The loop body repeats while the condition remains true; if false, the loop then exits before the next iteration.
+Example:  for (let i = 0; i < 3; i++) console.log(i)
