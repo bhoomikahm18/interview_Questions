@@ -944,6 +944,11 @@ A) Middleware is a function that receives the request and response objects. Most
 -Finish the request-response cycle
 -Invoke the next middleware in the stack
 
+10) What are the different types of HTTP requests?
+A) HTTP defines a set of request methods used to perform desired actions. The request methods include:
+-> GET: Used to retrieve the data
+-> POST: Generally used to make a change in state or reactions on the server
+
 
 
 
