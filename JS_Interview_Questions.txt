@@ -697,6 +697,12 @@ Example: function Person() {}                            // Person is a construc
 108) What is the difference between _proto_ and [[Prototype]]?
 A) [[Prototype]] is a special hidden property in JavaScript objects, but because it cannot be directly accessed, it can be accessed through the _proto_ access method.
 
+109) What is the difference between _proto_ and prototype?
+A) _proto_ and prototype are different properties. _proto_ is a hidden property of each object, and each object can access its prototype through _proto. And prototype is a property that exists in all constructor functions, and the prototype of the constructor function is actually the same as the __proto_, which is called the prototype object.
+Example:    function Person() {}           // Person is a constructor function
+	   const personA = new Person();     // Create a personA object through the Person constructor function
+	   personA._proto_ === Person.prototype;    // true
+
 
 
 
