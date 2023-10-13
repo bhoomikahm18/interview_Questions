@@ -895,6 +895,11 @@ Example:	const Teachers = [
 			Social
 
 
+@@@@@@@@@@@@NODE JS@@@@@@@@@@@@@@@@
+1) What is Node.js? Where can you use it?
+A) Node.js is an open-source, cross-platform JavaScript runtime environment and library to run web applications outside the client’s browser. It is used to create server-side web applications.
+
+
 
 
 
