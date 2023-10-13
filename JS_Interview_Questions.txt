@@ -931,6 +931,12 @@ A) There are two commonly used libraries in Node.js:
 -ExpressJS - Express is a flexible Node.js web application framework that provides a wide set of features to develop web and mobile applications.
 -Mongoose - Mongoose is also a Node.js web application framework that makes it easy to connect an application to a database.
 
+8) What is the package.json file?
+A) The package.json file is the heart of a Node.js system. This file holds the metadata for a particular project. The package.json file is found in the root directory of any Node application or module.
+This is what a package.json file looks like immediately after creating a Node.js project using the command: npm init
+You can edit the parameters when you create a Node.js project.
+node-npm
+
 
 
 
