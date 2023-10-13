@@ -906,6 +906,11 @@ A) Node.js makes building scalable network programs easy. Some of its advantages
 -It offers a unified programming language and data type
 -Everything is asynchronous
 
+3) What is npm?
+A) npm stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
+Node Package Manager provides two main functionalities:
+-Provides online repositories for node.js packages/modules, which are searchable on search.nodejs.org
+-Provides command-line utility to install Node.js packages and also manages Node.js versions and dependencies
 
 
 
