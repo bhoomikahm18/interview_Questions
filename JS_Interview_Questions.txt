@@ -926,6 +926,11 @@ A) Some of the reasons why Node.js is preferred include:
 6) Which database is more popularly used with Node.js?
 A) MongoDB is the most common database used with Node.js. It is a NoSQL, cross-platform, document-oriented database that provides high performance, high availability, and easy scalability.
 
+7) What are some of the most commonly used libraries in Node.js?
+A) There are two commonly used libraries in Node.js:
+-ExpressJS - Express is a flexible Node.js web application framework that provides a wide set of features to develop web and mobile applications.
+-Mongoose - Mongoose is also a Node.js web application framework that makes it easy to connect an application to a database.
+
 
 
 
