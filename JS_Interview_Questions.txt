@@ -816,3 +816,6 @@ Example: let x = 'value2';
 	    ...
 	    [break]
 	}
+
+126) What is the purpose of the break statement in a switch statement?
+A)  The `break` statement in a JavaScript `switch` statement is used to prevent the code from running into the next `case` once a match is found and its code has been executed.
