@@ -687,27 +687,26 @@ A) There are a few reasons why callback functions should be avoided:
 
 107) What is prototype? double underscore
 A) In JavaScript, each object contains an internal hidden property [[Prototype]], which corresponds to the prototype of that object, which may be null or point to another object. However, since [[Prototype]] is an internal property that cannot be accessed directly, the browser provides the __proto__ access method, which can be referenced in the following code.
-But we need to pay attention that the _proto_ method is not in the ECMAScript specification. In fact, when developing, we will use Object.getPrototypeOf to get the prototype of the object.
+But we need to pay attention that the __proto__ method is not in the ECMAScript specification. In fact, when developing, we will use Object.getPrototypeOf to get the prototype of the object.
 Example: function Person() {}                            // Person is a constructor function
 	const personA = new Person();             // Create a personA object through the Person constructor function
-	console.log(personA._proto_); // output: {constructor: ƒ}             // Through the _proto_ method, view the prototype of personA
-
-	personA._proto_ === Person.prototype; // output: true       // personA object can be accessed to its prototype through the _proto_ method
+	console.log(personA.__proto__); // output: {constructor: ƒ}             // Through the _proto_ method, view the prototype of personA
+	personA.__proto__ === Person.prototype; // output: true       // personA object can be accessed to its prototype through the __proto__ method
 	Object.getPrototypeOf(personA) === Person.prototype; // true
-	personA._proto_ === Object.getPrototypeOf(personA); // true
+	personA.__proto__ === Object.getPrototypeOf(personA); // true
 
-108) What is the difference between _proto_ and [[Prototype]]? double
-A) [[Prototype]] is a special hidden property in JavaScript objects, but because it cannot be directly accessed, it can be accessed through the _proto_ access method.
+108) What is the difference between __proto__ and [[Prototype]]? double
+A) [[Prototype]] is a special hidden property in JavaScript objects, but because it cannot be directly accessed, it can be accessed through the __proto__ access method.
 
-109) What is the difference between _proto_ and prototype? double
-A) _proto_ and prototype are different properties. _proto_ is a hidden property of each object, and each object can access its prototype through _proto. And prototype is a property that exists in all constructor functions, and the prototype of the constructor function is actually the same as the __proto_, which is called the prototype object.
+109) What is the difference between __proto__ and prototype? double
+A)__proto__and prototype are different properties. __proto__ is a hidden property of each object, and each object can access its prototype through __proto__. And prototype is a property that exists in all constructor functions, and the prototype of the constructor function is actually the same as the __proto__, which is called the prototype object.
 Example:    function Person() {}           // Person is a constructor function
 	   const personA = new Person();     // Create a personA object through the Person constructor function
-	   personA._proto_ === Person.prototype;    // true
+	   personA.__proto__=== Person.prototype;    // true
 
 110) What is the prototype chain?
-A) Prototype is a special hidden property in JavaScript objects, and each object can access its prototype through _proto_. The prototype itself is an object, so it also has its own prototype. When we try to access an attribute of an object, if the object does not have the required attribute, it will look for it in its prototype. If the prototype still does not find it, it will continue to look up one level until it is found, or until it reaches null. This continuous path is called the prototype chain, and the end of the chain is null.
-Example:     personA._proto.proto.proto_ === null;
+A) Prototype is a special hidden property in JavaScript objects, and each object can access its prototype through __proto__. The prototype itself is an object, so it also has its own prototype. When we try to access an attribute of an object, if the object does not have the required attribute, it will look for it in its prototype. If the prototype still does not find it, it will continue to look up one level until it is found, or until it reaches null. This continuous path is called the prototype chain, and the end of the chain is null.
+Example:     personA.__proto.proto.proto__ === null;
 
 111) What is class inheritance in JavaScript?
 A) Class inheritance in JavaScript allows a subclass to inherit properties and methods from a parent class, enabling code reuse and reducing redundancy.
@@ -820,7 +819,7 @@ Example: let x = 'value2';
 126) What is the purpose of the break statement in a switch statement?
 A)  The `break` statement in a JavaScript `switch` statement is used to prevent the code from running into the next `case` once a match is found and its code has been executed.
 
-127) What are the differt types of for loops used in js to iterate arrays and objects?
+127) What are the different types of for loops used in js to iterate arrays and objects?
 A)=> Using the forEach() method: The forEach() method is used to execute code for each element in the array by looping through each of them.
 Example:	function loopArray() {
 	    let arr = ['Item 1', 'Item 2', 'Item 3',
