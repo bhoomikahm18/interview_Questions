@@ -915,6 +915,14 @@ Node Package Manager provides two main functionalities:
 4) What are the modules in Node.js?
 A) Modules are like JavaScript libraries that can be used in a Node.js application to include a set of functions. To include a module in a Node.js application, use the require() function with the parentheses containing the module's name.
 
+5) Why is Node.js preferred over other backend technologies like Java and PHP?
+A) Some of the reasons why Node.js is preferred include:
+-Node.js is very fast
+-Node Package Manager has over 50,000 bundles available at the developer’s disposal
+-Perfect for data-intensive, real-time web applications, as Node.js never waits for an API to return data
+-Better synchronization of code between server and client due to same code base
+-Easy for web developers to start using Node.js in their projects as it is a JavaScript library
+
 
 
 
