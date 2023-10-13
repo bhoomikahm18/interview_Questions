@@ -434,7 +434,9 @@ A) Undefined means a variable has been declared but has not yet been assigned a 
 
 64) What is the difference between innerHTML & innerText?
 A) -> innerHTML – It will process an HTML tag if found in a string
+Example: document.getElementsByTagName('body')[0].innerHTML = '<div id="gator">Alligators rule!!</div>';
      -> innerText – It will not process an HTML tag if found in a string
+Example: document.getElementById('gator').innerText = 'OF COURSE alligators rule!';
 
 65) How to write a comment in JavaScript?
 A) There are two types of comments in JavaScript.
@@ -680,6 +682,17 @@ A) There are a few reasons why callback functions should be avoided:
 1. They can be hard to read and debug
 2. They can lead to what is known as “callback hell”
 3. Promises provide a simpler and more elegant way to handle asynchronous code
+
+107) What is prototype?
+A) In JavaScript, each object contains an internal hidden property [[Prototype]], which corresponds to the prototype of that object, which may be null or point to another object. However, since [[Prototype]] is an internal property that cannot be accessed directly, the browser provides the _proto_ access method, which can be referenced in the following code.
+But we need to pay attention that the _proto_ method is not in the ECMAScript specification. In fact, when developing, we will use Object.getPrototypeOf to get the prototype of the object.
+Example: function Person() {}                            // Person is a constructor function
+	const personA = new Person();             // Create a personA object through the Person constructor function
+	console.log(personA._proto_); // output: {constructor: ƒ}             // Through the _proto_ method, view the prototype of personA
+
+	personA._proto_ === Person.prototype; // output: true       // personA object can be accessed to its prototype through the _proto_ method
+	Object.getPrototypeOf(personA) === Person.prototype; // true
+	personA._proto_ === Object.getPrototypeOf(personA); // true
 
 
 
