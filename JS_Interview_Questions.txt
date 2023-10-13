@@ -923,6 +923,9 @@ A) Some of the reasons why Node.js is preferred include:
 -Better synchronization of code between server and client due to same code base
 -Easy for web developers to start using Node.js in their projects as it is a JavaScript library
 
+6) Which database is more popularly used with Node.js?
+A) MongoDB is the most common database used with Node.js. It is a NoSQL, cross-platform, document-oriented database that provides high performance, high availability, and easy scalability.
+
 
 
 
