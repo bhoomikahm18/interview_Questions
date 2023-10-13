@@ -937,6 +937,12 @@ This is what a package.json file looks like immediately after creating a Node.js
 You can edit the parameters when you create a Node.js project.
 node-npm
 
+9) Explain the concept of middleware in Node.js.
+A) Middleware is a function that receives the request and response objects. Most tasks that the middleware functions perform are:  
+-Execute any code
+-Update or modify the request and the response objects
+-Finish the request-response cycle
+-Invoke the next middleware in the stack
 
 
 
