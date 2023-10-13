@@ -736,5 +736,8 @@ Example:class Animal {
 112) How does the ‘extends’ keyword work in JavaScript class inheritance?
 A) The "extends" keyword in JavaScript class inheritance creates a subclass that inherits properties and methods from a parent class, and can also define new properties and methods.
 
+113) What is a superclass and a subclass?
+A) A superclass is a class that is inherited from by other classes, while a subclass is a class that inherits properties and methods from a superclass.
+
 
 
