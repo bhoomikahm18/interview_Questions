@@ -585,10 +585,10 @@ Example: var str = "Hello, welcome to edureka! 1 12 123";
 	,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,,,1,,,
 	12,12
 
-84) What does the * operator do in a regular expression? EG?
+84) What does the * operator do in a regular expression? 
 A) The * operator is a quantifier, which indicates that the preceding element can be matched zero or more times.
 
-85) Which special character is used to find any single character that matches a pattern? EG?
+85) Which special character is used to find any single character that matches a pattern? 
 A) The period (.) is used to find any single character that matches a pattern.
 
 86) What does the + operator do in a regular expression? EG
@@ -600,7 +600,7 @@ A) The ? operator is a quantifier that specifies how many times an element can o
 88) What does the . operator do in a regular expression?
 A) The . operator is a wildcard character that matches any character except for a newline character.
 
-89) What do the ^ and $ operators do in a regular expression? code eg
+89) What do the ^ and $ operators do in a regular expression? 
 A) The ^ operator matches the beginning of a string, while the $ operator matches the end of a string. These operators are often used together to match an entire string, from start to finish.
 Example: ^a Search all string which start with "a".
 	a$ Search all string which end with "a".
@@ -628,6 +628,7 @@ A) There are many ways to use regular expressions to validate data. Some common 
 93) How would you write a Regular Expression to validate an email address pattern?
 A) A regular expression to validate an email address pattern can be written as follows:
 Example:   /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/
+This regex checks for a sequence of alphanumeric characters (including ._%-) followed by the @ symbol. After this, it looks for another sequence of alphanumeric characters (including . and -), then a period, and finally 2 to 6 alphabetic characters. The entire pattern is enclosed within start (^) and end ($) symbols to ensure that the whole string matches the pattern.
 
 94)  How can you use Regular Expressions to split a string into an array?
 A) Regular Expressions (regex) can be used to split a string into an array by using the split() method in JavaScript. This method splits a String object into an array of strings by separating the string into substrates.
@@ -673,8 +674,8 @@ A) A promises in JavaScript are used o handle asynchronous operations. A promise
 102) What are the different states that a promise can be in during its lifetime?
 A) A promise can be in one of three states during its lifetime: pending, fulfilled, or rejected. A promise starts in the pending state, and then either transitions to the fulfilled state if the promise is successfully completed, or the rejected state if the promise is not completed.
 
-104) Can you explain what the .then() method does? change
-A) The .then() method is used to specify what should happen when a promise is resolved. This is usually used to chain together multiple promises, so that each promise is executed in order. The .then() method can also take two arguments: a success callback and a failure callback. The success callback will be executed if the promise is resolved, and the failure callback will be executed if the promise is rejected.
+104) Can you explain what the .then() method does? 
+A) The .then() method is used to specify what should happen when a promise is resolved. This is usually used to chain together multiple promises, so that each promise is executed in order. The .then() method can also take one arguments followed by .catch() method.The .then() method will be executed if the promise is resolved, and the .catch() method will be executed if the promise is rejected.
 
 105) Can you explain what the .catch() method does?
 A) The .catch() method is used to handle errors that may occur in a Promise chain. The .catch() method takes a single argument, which is a function that will be executed if an error occurs. The .catch() method is typically used after a .then() method to handle any errors that may have occurred in the .then() method.
