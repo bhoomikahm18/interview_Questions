@@ -819,3 +819,39 @@ Example: let x = 'value2';
 
 126) What is the purpose of the break statement in a switch statement?
 A)  The `break` statement in a JavaScript `switch` statement is used to prevent the code from running into the next `case` once a match is found and its code has been executed.
+
+127) What are the differt types of for loops used in js to iterate arrays and objects?
+A) Using the forEach() method: The forEach() method is used to execute code for each element in the array by looping through each of them.
+Example:	function loopArray() {
+	    let arr = ['Item 1', 'Item 2', 'Item 3',
+	        'Item 4', 'Item 5']; 
+	    arr.forEach(element => {
+	       console.log(element);
+	    });
+	}
+	loopArray(); //output: Item 1
+			Item 2
+			Item 3
+			Item 4
+			Item 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
