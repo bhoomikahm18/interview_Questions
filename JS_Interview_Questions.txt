@@ -694,6 +694,9 @@ Example: function Person() {}                            // Person is a construc
 	Object.getPrototypeOf(personA) === Person.prototype; // true
 	personA._proto_ === Object.getPrototypeOf(personA); // true
 
+108) What is the difference between _proto_ and [[Prototype]]?
+A) [[Prototype]] is a special hidden property in JavaScript objects, but because it cannot be directly accessed, it can be accessed through the _proto_ access method.
+
 
 
 
