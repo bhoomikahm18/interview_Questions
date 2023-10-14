@@ -228,6 +228,11 @@ We will be using the DELETE query to delete existing rows from the table:
 Example: DELETE FROM employee
 	WHERE [age=25];
 
+35. How to create a database in SQL?
+A) A database is a repository in SQL, which can comprise multiple tables.
+This will be the command to create a database in sql:
+	CREATE DATABASE database_name.
+
 
 
 
