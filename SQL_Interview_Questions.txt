@@ -144,6 +144,21 @@ A) A NULL value indicates the absence of data for a certain cell of a table. Ins
 A) A SELECT command gets zero or more rows from one or more database tables or views. The most frequent data manipulation language (DML) command is SELECT in most applications. SELECT queries define a result set, but not how to calculate it, because SQL is a declarative programming language.
 Example: SELECT * FROM myDB.students;
 
+26. What are some common clauses used with SELECT query in SQL?
+A) Some common SQL clauses used in conjuction with a SELECT query are as follows:
+-> WHERE clause in SQL is used to filter records that are necessary, based on specific conditions.
+-> ORDER BY clause in SQL is used to sort the records based on some field(s) in ascending (ASC) or descending order (DESC).
+Example: SELECT *
+	FROM myDB.students
+	WHERE graduation_year = 2019
+	ORDER BY studentID DESC;
+-> GROUP BY clause in SQL is used to group records with identical data and can be used in conjunction with some aggregation functions to produce summarized results from the database.
+-> HAVING clause in SQL is used to filter records in combination with the GROUP BY clause. It is different from WHERE, since the WHERE clause cannot filter aggregated records.
+Example: SELECT COUNT(studentId), country
+	FROM myDB.students
+	WHERE country != "INDIA"
+	GROUP BY country
+	HAVING COUNT(studentID) > 5;
 
 
 
