@@ -214,6 +214,12 @@ Example: CREATE TABLE employee (
 A) There are two ways to delete a table from SQL: DROP and TRUNCATE. The DROP TABLE command is used to completely delete the table from the database. This is the command:
 	DROP TABLE table_name;
 
+32.  How to change a table name in SQL?
+A) This is the command to change a table name in SQL:
+	ALTER TABLE table_name
+	RENAME TO new_table_name;
+Example:  ALTER TABLE employee
+ 	RENAME TO employee_information;
 
 
 
