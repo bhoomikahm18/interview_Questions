@@ -27,3 +27,31 @@ CREATE TABLE Students (   /* Create table with a single field as unique */
    ID INT NOT NULL UNIQUE
    Name VARCHAR(255)
 );
+
+7. What is a Foreign Key?
+A) A FOREIGN KEY comprises of single or collection of fields in a table that essentially refers to the PRIMARY KEY in another table. Foreign key constraint ensures referential integrity in the relation between two tables.
+The table with the foreign key constraint is labeled as the child table, and the table containing the candidate key is labeled as the referenced or parent table.
+Example: 
+CREATE TABLE Students (   /* Create table with foreign key - Way 1 */
+   ID INT NOT NULL
+   Name VARCHAR(255)
+   LibraryID INT
+   PRIMARY KEY (ID)
+   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
