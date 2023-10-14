@@ -40,7 +40,31 @@ CREATE TABLE Students (   /* Create table with foreign key - Way 1 */
    FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID)
 );
 
-
+8. What is a Join? List its different types.
+A) The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+There are four different types of JOINs in SQL:
+=> (INNER) JOIN: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
+Example: ->SELECT *
+	FROM Table_A
+	JOIN Table_B;
+	->SELECT *
+	FROM Table_A
+	INNER JOIN Table_B;
+=> LEFT (OUTER) JOIN: Retrieves all the records/rows from the left and the matched records/rows from the right table.
+Example:SELECT *
+	FROM Table_A A
+	LEFT JOIN Table_B B
+	ON A.col = B.col;
+=> RIGHT (OUTER) JOIN: Retrieves all the records/rows from the right and the matched records/rows from the left table.
+Example: SELECT *
+	FROM Table_A A
+	RIGHT JOIN Table_B B
+	ON A.col = B.col;
+=> FULL (OUTER) JOIN: Retrieves all the records where there is a match in either the left or right table.
+Example: SELECT *
+	FROM Table_A A
+	FULL JOIN Table_B B
+	ON A.col = B.col;
 
 
 
