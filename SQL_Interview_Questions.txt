@@ -178,6 +178,16 @@ For example: SELECT * FROM Students
 	WHERE ROLL_NO IN (20,21,23);
 This query will select all those rows from the table Students where the value of the field ROLL_NO is either 20 or 21 or 23.
 
+29. What is the difference between a primary key and a unique key?
+A) -> Primary Key	
+The primary key act as a unique identifier for each record in the table.	
+We cannot store NULL values in the primary key column.
+We cannot change or delete the primary key column values.
+-> Unique Key
+The unique key is also a unique identifier for records when the primary key is not present in the table.
+We can store NULL value in the unique key column, but only one NULL is allowed.
+We can modify the unique key column values.
+
 
 
 
