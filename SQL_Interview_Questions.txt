@@ -488,11 +488,19 @@ A) Query:  CREATE TABLE NewTable
 	 SELECT * FROM EmployeeSalary;
 
 
-37. Write an SQL query to create an empty table with the same structure as some other table.
-Here, we can use the same query as above with the False ‘WHERE’ condition-
-
-CREATE TABLE NewTable 
-SELECT * FROM EmployeeSalary where 1=0;
+70. Write an SQL query to find the nth highest salary from a table.
+A) Using Top keyword (SQL Server)-
+Query:   SELECT TOP 1 Salary
+	FROM (
+	      SELECT DISTINCT TOP N Salary
+	      FROM Employee
+	      ORDER BY Salary DESC
+	      )
+	ORDER BY Salary ASC;
+Using limit clause(MySQL)-
+Query: 	SELECT Salary
+	FROM Employee
+	ORDER BY Salary DESC LIMIT N-1,1;
 
 
 
