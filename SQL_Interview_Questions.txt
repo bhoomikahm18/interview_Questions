@@ -383,10 +383,14 @@ A) Query: SELECT EmpId FROM EmployeeDetails
 
 60.  Write an SQL query to fetch common records between two tables.
 A) SQL Server – Using INTERSECT operator-
-Query: SELECT * FROM EmployeeSalary
+Query:      SELECT * FROM EmployeeSalary
 	INTERSECT
 	SELECT * FROM ManagerSalary;
-
+MySQL – Since MySQL doesn’t have INTERSECT operator so we can use the subquery-
+Query:      SELECT *
+	FROM EmployeeSalary
+	WHERE EmpId IN 
+	(SELECT EmpId from ManagerSalary);
 
 
 
