@@ -308,7 +308,6 @@ Note: All aggregate functions described above ignore NULL values except for the 
 47. Write a query to get the current date.
 Query:  SELECT GETDATE();
 
-
 48.  Write a query to create a new table which consists of data and structure copied from the other table.
 Query:   SELECT * INTO NewTable FROM EmployeeTable WHERE 1 = 0;
 
