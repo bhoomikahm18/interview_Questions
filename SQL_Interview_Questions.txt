@@ -410,6 +410,10 @@ A) Using the ‘Replace’ function-
 Query:      SELECT REPLACE(FullName, ' ', '-') 
 	FROM EmployeeDetails;
 
+63. Write an SQL query to uppercase the name of the employee and lowercase the city values.
+A) Query:  SELECT UPPER(FullName), LOWER(City) 
+	 FROM EmployeeDetails;
+
 
 
 
