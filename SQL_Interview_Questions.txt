@@ -376,6 +376,17 @@ A) Query: SELECT FullName
 	FROM EmployeeDetails
 	WHERE FullName LIKE ‘__hn%’;
 
+59.   Write an SQL query to fetch all the EmpIds which are present in either of the tables – ‘EmployeeDetails’ and ‘EmployeeSalary’.
+A) Query: SELECT EmpId FROM EmployeeDetails
+	UNION 
+	SELECT EmpId FROM EmployeeSalary;
+
+60.  Write an SQL query to fetch common records between two tables.
+A) SQL Server – Using INTERSECT operator-
+Query: SELECT * FROM EmployeeSalary
+	INTERSECT
+	SELECT * FROM ManagerSalary;
+
 
 
 
