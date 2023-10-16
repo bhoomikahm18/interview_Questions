@@ -345,7 +345,10 @@ Query: SELECT  EmpId, FullName
 A) Query: SELECT DISTINCT(Project)
 	FROM EmployeeSalary;
 
-
+53.  Write an SQL query to fetch the count of employees working in project ‘P1’.
+A)  Query:  SELECT COUNT(*) 
+	  FROM EmployeeSalary 
+	  WHERE Project = 'P1';
 
 
 
