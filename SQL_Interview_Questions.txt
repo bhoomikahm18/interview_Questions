@@ -13,32 +13,29 @@ A) SQL stands for Structured Query Language. It is the standard language for rel
 5. What is a Primary Key?
 A) The PRIMARY KEY constraint uniquely identifies each row in a table. It must contain UNIQUE values and has an implicit NOT NULL constraint.
 A table in SQL is strictly restricted to have one and only one primary key, which is comprised of single or multiple fields (columns).
-Example:
-CREATE TABLE Students (   /* Create table with a single field as primary key */
-   ID INT NOT NULL
-   Name VARCHAR(255)
-   PRIMARY KEY (ID)
-);
+Example:CREATE TABLE Students (   /* Create table with a single field as primary key */
+	   ID INT NOT NULL
+	   Name VARCHAR(255)
+	   PRIMARY KEY (ID)
+	);
 
 6. What is a UNIQUE constraint?
 A) A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.
-Example: 
-CREATE TABLE Students (   /* Create table with a single field as unique */
-   ID INT NOT NULL UNIQUE
-   Name VARCHAR(255)
-);
+Example: CREATE TABLE Students (   /* Create table with a single field as unique */
+	   ID INT NOT NULL UNIQUE
+	   Name VARCHAR(255)
+	);
 
 7. What is a Foreign Key?
 A) A FOREIGN KEY comprises of single or collection of fields in a table that essentially refers to the PRIMARY KEY in another table. Foreign key constraint ensures referential integrity in the relation between two tables.
 The table with the foreign key constraint is labeled as the child table, and the table containing the candidate key is labeled as the referenced or parent table.
-Example: 
-CREATE TABLE Students (   /* Create table with foreign key - Way 1 */
-   ID INT NOT NULL
-   Name VARCHAR(255)
-   LibraryID INT
-   PRIMARY KEY (ID)
-   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID)
-);
+Example: CREATE TABLE Students (   /* Create table with foreign key - Way 1 */
+	   ID INT NOT NULL
+	   Name VARCHAR(255)
+	   LibraryID INT
+	   PRIMARY KEY (ID)
+	   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID)
+	);
 
 8. What is a Join? List its different types.
 A) The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
@@ -144,7 +141,7 @@ A) % corresponds to 0 or more characters, _ is exactly one character in the LIKE
 
 23. How does DISTINCT work in MySQL?
 A) DISTINCT is used to avoid the problem of duplicity while fetching the results of a particular query. DISTINCT is used to make sure the results do not contain repeated values. DISTINCT can be used with the SELECT clause. Here is the syntax for it:
-Query: SELECT DISTINCT something FROM tablename;
+Query:       SELECT DISTINCT something FROM tablename;
 
 24. What is NULL value? How is it different from zero or a blank space?
 A) A NULL value indicates the absence of data for a certain cell of a table. Instead, zero is a valid numeric value, and an empty string is a legal string of zero length.
@@ -157,13 +154,13 @@ Query: SELECT * FROM myDB.students;
 A) Some common SQL clauses used in conjuction with a SELECT query are as follows:
 -> WHERE clause in SQL is used to filter records that are necessary, based on specific conditions.
 -> ORDER BY clause in SQL is used to sort the records based on some field(s) in ascending (ASC) or descending order (DESC).
-Query: SELECT *
+Query:      SELECT *
 	FROM myDB.students
 	WHERE graduation_year = 2019
 	ORDER BY studentID DESC;
 -> GROUP BY clause in SQL is used to group records with identical data and can be used in conjunction with some aggregation functions to produce summarized results from the database.
 -> HAVING clause in SQL is used to filter records in combination with the GROUP BY clause. It is different from WHERE, since the WHERE clause cannot filter aggregated records.
-Query: SELECT COUNT(studentId), country
+Query:      SELECT COUNT(studentId), country
 	FROM myDB.students
 	WHERE country != "INDIA"
 	GROUP BY country
@@ -502,7 +499,9 @@ Query: 	SELECT Salary
 	FROM Employee
 	ORDER BY Salary DESC LIMIT N-1,1;
 
-
+What is composite key?
+A) A composite key is type of candidate key which represents a set of columns whose values uniquely identified every row in a table.
+Example: If STUDENT_ID and STUDENT_NAME in a table are combined to uniquely identify a row which called as composite key.
 
 
 
