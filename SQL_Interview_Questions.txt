@@ -483,6 +483,17 @@ Query:	SELECT *
 	     ) t 
 	WHERE rn % 2 = 0;
 
+69. Write an SQL query to create a new table with data and structure copied from another table.
+A) Query:  CREATE TABLE NewTable 
+	 SELECT * FROM EmployeeSalary;
+
+
+37. Write an SQL query to create an empty table with the same structure as some other table.
+Here, we can use the same query as above with the False ‘WHERE’ condition-
+
+CREATE TABLE NewTable 
+SELECT * FROM EmployeeSalary where 1=0;
+
 
 
 
