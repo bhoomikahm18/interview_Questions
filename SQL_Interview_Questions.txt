@@ -441,6 +441,27 @@ Query:      DELETE E1 FROM EmployeeDetails E1
 	AND E1.DateOfJoining = E2.DateOfJoining
 	AND E1.City = E2.City;
 
+67. Write an SQL query to fetch only odd rows from the table.
+A) In case we have an auto-increment field e.g. EmpId then we can simply use the below query-
+Query:	SELECT * FROM EmployeeDetails 
+	WHERE MOD (EmpId, 2) <> 0;
+In case we don’t have such a field then we can use the below queries.
+Using Row_number in SQL server and checking that the remainder when divided by 2 is 1-
+Query:      SELECT E.EmpId, E.Project, E.Salary
+	FROM (
+	    SELECT *, Row_Number() OVER(ORDER BY EmpId) AS RowNumber
+	    FROM EmployeeSalary
+	) E
+	WHERE E.RowNumber % 2 = 1;
+Using a user-defined variable in MySQL-
+Query: SELECT *
+	FROM (
+	      SELECT *, @rowNumber := @rowNumber+ 1 rn
+	      FROM EmployeeSalary
+	      JOIN (SELECT @rowNumber:= 0) r
+	     ) t 
+	WHERE rn % 2 = 1;
+
 
 
 
