@@ -361,6 +361,11 @@ A) Query: SELECT EmpId, Salary
 	FROM EmployeeSalary
 	WHERE Salary BETWEEN 9000 AND 15000;
 
+56. Write an SQL query to fetch those employees who live in Toronto and work under the manager with ManagerId – 321.
+A) Query : SELECT EmpId, City, ManagerId
+	 FROM EmployeeDetails
+	 WHERE City='Toronto' AND ManagerId='321';
+
 
 
 
