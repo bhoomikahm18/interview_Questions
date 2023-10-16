@@ -359,7 +359,7 @@ A) Query:  SELECT Max(Salary),
 55. Write an SQL query to find the employee id whose salary lies in the range of 9000 and 15000.
 A) Query: SELECT EmpId, Salary
 	FROM EmployeeSalary
-WHERE Salary BETWEEN 9000 AND 15000;
+	WHERE Salary BETWEEN 9000 AND 15000;
 
 
 
