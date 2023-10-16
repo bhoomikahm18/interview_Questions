@@ -336,7 +336,7 @@ EmpId	FullName  	ManagerId	DateOfJoining	City
 321	Walter White	986		01/30/2020	California
 421	Kuldeep Rana	876		27/11/2021	New Delhi
 
-52. Write an SQL query to fetch the EmpId and FullName of all the employees working under the Manager with id – ‘986’.
+51. Write an SQL query to fetch the EmpId and FullName of all the employees working under the Manager with id – ‘986’.
 Query: SELECT  EmpId, FullName
 	FROM EmployeeDetails
 	WHERE ManagerId = 986;
