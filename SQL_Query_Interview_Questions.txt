@@ -1,19 +1,19 @@
 SQL Query Questions
 
-1)Create a table with a single field as primary key.
+1) Create a table with a single field as primary key.
 CREATE TABLE Students (   
 	   ID INT NOT NULL
 	   Name VARCHAR(255)
 	   PRIMARY KEY (ID)
 	);
 
-2)Create a table with a single field as Unique.
+2) Create a table with a single field as Unique.
 CREATE TABLE Students (  
 	   ID INT NOT NULL UNIQUE
 	   Name VARCHAR(255)
 	);
 
-3)Create a table with a single field as Foreign key.
+3) Create a table with a single field as Foreign key.
 CREATE TABLE Students (  
 	   ID INT NOT NULL
 	   Name VARCHAR(255)
@@ -22,7 +22,7 @@ CREATE TABLE Students (
 	   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID)
 	);
 
-4)What are the different types of joins?
+4) What are the different types of joins?
 There are four different types of JOINs in SQL:
 => (INNER) JOIN: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
 Example: ->SELECT *
