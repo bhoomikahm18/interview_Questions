@@ -80,6 +80,7 @@ CREATE DATABASE database_name.
 
 10)How do I view tables in SQL?
 	Show tables;
+
 11)Write a query for the update command in SQL?
  UPDATE employees
 	SET last_name=‘Cohen’
