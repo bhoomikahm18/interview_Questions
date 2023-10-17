@@ -274,3 +274,4 @@ A) Operators are the special keywords or special characters reserved for perform
 -> Compound operators: These operators perform operations on a variable before setting the variable's result to the operation's result. It includes Add equals (+=), subtract equals (-=), multiply equals (*=), divide equals (/=), modulo equals (%=), etc.
 -> String operators: These operators are primarily used to perform concatenation and pattern matching of strings. It includes + (String concatenation), += (String concatenation assignment), % (Wildcard), [] (Character(s) matches), [^] (Character(s) not to match), _ (Wildcard match one character), etc.
 
+
