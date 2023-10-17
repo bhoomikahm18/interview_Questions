@@ -32,8 +32,9 @@ Properties of transaction can be summarized as ACID properties:
 9. What is the data type of DUAL table?
    The DUAL table is a one-column table present in oracle database.  The table has a single VARCHAR2 (1) column called DUMMY which has a value of ‘X’.
 
-10.What is an oracle schema?
+10. What is an oracle schema?
 A user account and its associated data including tables, views, indexes, clusters, sequences, procedures, functions, triggers, packages and database links is known as Oracle schema. Systems, SCOTT etc are default schemas. We can create a new Schema/User. But we can't drop default database schemas.
+
 11.What are the different Oracle Database objects?
 Tables – set of elements organized in vertical and horizontal
 Views – Virtual table derived from one or more tables
