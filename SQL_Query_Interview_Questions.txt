@@ -160,22 +160,22 @@ FROM EMPLOYEE EMP
 INNER JOIN INCENTIVE INCN  
 ON EMP.EMPLOYEE_ID=INCN.EMPLOYEE_ID;
 
-12)Select first name, incentive amount from employee and incentives table for those employees who have incentives and incentive amount greater than 3000.
+12) Select first name, incentive amount from employee and incentives table for those employees who have incentives and incentive amount greater than 3000.
 SELECT EMP.FIRST_NAME, INCN.INCENTIVE_AMOUNT 
 FROM EMPLOYEE EMP
 INNER JOIN INCENTIVE INCN  
 ON EMP.EMPLOYEE_ID=INCN.EMPLOYEE_ID;
 AND INCENTIVE_AMOUNT >3000;
 
-13)Select TOP 2 salaries from employee table.
+13) Select TOP 2 salaries from employee table.
 SELECT * FROM 
 (SELECT * FROM EMPLOYEE ORDER BY SALARY DESC) 
 WHERE ROWNUM <3;
 
-14)Write the syntax to find current date and time in format “YYYY-MM-DD” using function.
+14) Write the syntax to find current date and time in format “YYYY-MM-DD” using function.
 SELECT TO_CHAR (SYSDATE, 'YYYY-MM-DD HH24: MI: SS’) "Current_Date"   FROM DUAL;
 
-15)SQL query to find the highest salary.
+15) SQL query to find the highest salary.
 SELECT MAX (SAL) FROM EMP;
 
 16) SQL query to find the lowest salary.
