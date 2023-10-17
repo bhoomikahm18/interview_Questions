@@ -1065,7 +1065,6 @@ A) Express.js or Express is a JavaScript backend framework. It is mainly designe
 3) Why do we use Express.js?
 A) Express.js is an automatically prebuilt Node.js framework that facilitates us to create server-side web applications faster and smarter. The main reason for choosing Express is its simplicity, minimalism, flexibility, and scalability characteristics.
 
-4) What is the difference between Express.js and Node.js?
 A) Node.js is an open-source, cross-platform run-time environment used for executing JavaScript code outside of a browser. Node.js is not a framework or a programming language; it is a platform that acts as a web server. Many big companies such as Paypal, Uber, Netflix, Wallmart, etc., are using this. On the other hand, Express is a small framework based on the functionality of Node.js.
 
 Some key differences between Express.js and Node.js:
