@@ -133,8 +133,9 @@ SQL Server is another tool for RDBMS provided by Microsoft.
 29. Explain materialized views and how they are used.
 A) Materialized views are objects that are reduced sets of information that have been summarized, grouped, or aggregated from base tables. They are typically used in data warehouse or decision support systems.
 
-30.What is a Table-space? 
-A database is divided into Logical Storage Unit called table-space. A table-space is used to grouped related logical structures together.
+30. What is a Table-space? 
+A) A database is divided into Logical Storage Unit called table-space. A table-space is used to grouped related logical structures together.
+
 31.What is Cartesian product?
  If two or more tables are joining without join condition will result into Cartesian products.
 32.What operators deal with NULL?
