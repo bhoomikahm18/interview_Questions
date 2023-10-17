@@ -19,12 +19,13 @@ Example: If STUDENT_ID and STUDENT_NAME in a table are combined to uniquely iden
 6. What is database transaction?
 Database transaction takes database from one consistent state to another, at the end of the transactions; this system must be in the prior state if the transaction fails else the status of the system should reflect the successful completion of transaction.
 
-7.What are properties of transaction?
+7. What are properties of transaction?
 Properties of transaction can be summarized as ACID properties:
-Atomicity: A transaction consists of many steps, when all the steps in a transaction get completed; it will get reflected in database or if any step fails all the transactions are rolled back.
-Consistency: The database will move from one consistent state to another, if the transaction succeeds and remain in the original state, if the transaction fails.
-Isolation: Every transaction should operate as if it is the only transaction in the system.
-Durability: Once a transaction has completed successfully the updated rows/records must be available for all other transactions on a permanent basis.
+-> Atomicity: A transaction consists of many steps, when all the steps in a transaction get completed; it will get reflected in database or if any step fails all the transactions are rolled back.
+-> Consistency: The database will move from one consistent state to another, if the transaction succeeds and remain in the original state, if the transaction fails.
+-> Isolation: Every transaction should operate as if it is the only transaction in the system.
+-> Durability: Once a transaction has completed successfully the updated rows/records must be available for all other transactions on a permanent basis.
+
 8.Can we store pictures in the database and if so, how it can be done?
    Yes, we can store pictures in the database by Long Raw Data type. This data-type is used to    store binary data for 2 gigabytes of length. But the table can have only on Long Raw data type.
 9.What is the data type of DUAL table?
