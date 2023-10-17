@@ -226,7 +226,8 @@ Tables are used to group the data in relation to each other and create a dataset
 A database is a collection of organized data and features used to access them, whereas the table is a collection of rows and columns used to store the data.
 
 53. What is a View?
- A view in SQL is a virtual table based on the result-set of an SQL statement. A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+A) A view in SQL is a virtual table based on the result-set of an SQL statement. A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+
 54.What is the difference between CHAR and VARCHAR?
 CHAR and VARCHAR have differed in storage and retrieval.
 CHAR column length is fixed, while VARCHAR length is variable.
