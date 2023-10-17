@@ -35,13 +35,14 @@ Properties of transaction can be summarized as ACID properties:
 10. What is an oracle schema?
 A user account and its associated data including tables, views, indexes, clusters, sequences, procedures, functions, triggers, packages and database links is known as Oracle schema. Systems, SCOTT etc are default schemas. We can create a new Schema/User. But we can't drop default database schemas.
 
-11.What are the different Oracle Database objects?
-Tables – set of elements organized in vertical and horizontal
-Views – Virtual table derived from one or more tables
-Indexes – Performance tuning method for processing the records
-Synonyms – Alias name for tables
-Sequences – Multiple users generate unique numbers
-Table spaces – Logical storage unit in Oracle.
+11. What are the different Oracle Database objects?
+-> Tables – set of elements organized in vertical and horizontal
+-> Views – Virtual table derived from one or more tables
+-> Indexes – Performance tuning method for processing the records
+-> Synonyms – Alias name for tables
+-> Sequences – Multiple users generate unique numbers
+-> Table spaces – Logical storage unit in Oracle.
+
 12.What is Sub-query and what are the different types of sub query?
 Sub Query is also called as Nested Query or Inner Query which is used to get data from multiple tables. A sub query is added in the where clause of the main query.
 There are two different types of sub queries:
