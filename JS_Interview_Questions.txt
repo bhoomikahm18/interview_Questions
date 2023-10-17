@@ -1111,11 +1111,11 @@ Use the middleware as following:
 	  app.use(errorhandler({log: errorNotification}))  
 	}  
 	function errorNotification(err, str, req) {  
-	 var title = 'Error in ' + req.method + ' ' + req.url  
-	 notifier.notify({  
-	   title: title,  
-	   message: str  
-	 })  
+	  var title = 'Error in ' + req.method + ' ' + req.url  
+	  notifier.notify({  
+	       title: title,  
+	       message: str  
+	  })  
 	}  
 
 8) Write the code to start serving static files in Express.js.
