@@ -9,8 +9,9 @@ Any valuable information which needs to be stored by the user for later use can 
 3. What is primary key?
 A Primary key is a special designation assigned to a column, which helps us to uniquely identify and map all records present inside out Database.
 
-4.What is Foreign Key?
+4. What is Foreign Key?
   A Foreign key present in our table, refers to a primary key of the different table, which helps us to link the table.
+
 5.What is composite key?
 A composite key is type of candidate key which represents a set of columns whose values uniquely identified every row in a table.
 Example: If STUDENT_ID and STUDENT_NAME in a table are combined to uniquely identify a row which called as composite key.
