@@ -104,11 +104,12 @@ When you add new records to a table that has a primary key, Access checks for du
 By default, Access displays your data in the order of the primary key..
 => Disadvantages:
 There can be more than one key on which all the other attributes are dependent on.
-23.What are the advantages and disadvantages of Foreign Key?
-Advantage:
+
+23. What are the advantages and disadvantages of Foreign Key?
+A) => Advantage:
 1)   It allows referencing another table using the primary key for the other table.
 2)   Foreign key ensures data integrity.
-Disadvantages:
+=> Disadvantages:
 In primary key index will be created, so during updation of table index need to be adjusted accordingly. This process makes the updation slower.
 
 24.What is the difference between procedure and function?
