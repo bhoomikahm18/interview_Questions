@@ -134,27 +134,27 @@ FROM EMPLOYEE;
 SELECT DISTINCT DEPARTMENT
 FROM EMPLOYEES; 
 
-7)SQL Query to find second highest salary of Employee.
+7) SQL Query to find second highest salary of Employee.
 SELECT MAX (SALARY)
 FROM EMPLOYEE
 WHERE SALARY NOT IN (SELECT MAX (SALARY) FROM EMPLOYEE); 
 
-8)SQL Query to find nth highest salary of Employee.
+8) SQL Query to find nth highest salary of Employee.
 SELECT *FROM EMPLOYEE Emp1 
 WHERE (N-1) = 
 (SELECT COUNT (DISTINCT (Emp2.Salary)) 
 FROM Employee Emp2 
 WHERE Emp2.Salary > Emp1.Salary);
 
-9)Get First_name and Last Name as single column from employee table separated by a '_'.
+9) Get First_name and Last Name as single column from employee table separated by a '_'.
 SELECT FIRST_NAME||’_’||LAST_NAME FROM EMPLOYEE;
 
-10)Get department wise minimum salaries from employee table order by salary ascending?
+10) Get department wise minimum salaries from employee table order by salary ascending?
 SELECT DEPARTMENT, MIN (SALARY) MINSALARY FROM EMPLOYEE
 GROUP BY DEPARTMENT
 ORDER BY MINSALARY ASC;
 
-11)Select first name, incentive amount from employee and incentives table for those employees who have incentives.
+11) Select first name, incentive amount from employee and incentives table for those employees who have incentives.
 SELECT EMP.FIRST_NAME, INCN.INCENTIVE_AMOUNT 
 FROM EMPLOYEE EMP
 INNER JOIN INCENTIVE INCN  
