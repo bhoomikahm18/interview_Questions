@@ -1,42 +1,42 @@
 SQL Questions
 
 1. What is Database?
-Database is a software present inside our computer which helps the user to store and organize his data.
+A) Database is a software present inside our computer which helps the user to store and organize his data.
 
 2. What is Data?
-Any valuable information which needs to be stored by the user for later use can be termed as Data.
+A) Any valuable information which needs to be stored by the user for later use can be termed as Data.
 
 3. What is primary key?
-A Primary key is a special designation assigned to a column, which helps us to uniquely identify and map all records present inside out Database.
+A) A Primary key is a special designation assigned to a column, which helps us to uniquely identify and map all records present inside out Database.
 
 4. What is Foreign Key?
-  A Foreign key present in our table, refers to a primary key of the different table, which helps us to link the table.
+A)  A Foreign key present in our table, refers to a primary key of the different table, which helps us to link the table.
 
 5. What is composite key?
-A composite key is type of candidate key which represents a set of columns whose values uniquely identified every row in a table.
+A) A composite key is type of candidate key which represents a set of columns whose values uniquely identified every row in a table.
 Example: If STUDENT_ID and STUDENT_NAME in a table are combined to uniquely identify a row which called as composite key.
 
 6. What is database transaction?
-Database transaction takes database from one consistent state to another, at the end of the transactions; this system must be in the prior state if the transaction fails else the status of the system should reflect the successful completion of transaction.
+A) Database transaction takes database from one consistent state to another, at the end of the transactions; this system must be in the prior state if the transaction fails else the status of the system should reflect the successful completion of transaction.
 
 7. What are properties of transaction?
-Properties of transaction can be summarized as ACID properties:
+A) Properties of transaction can be summarized as ACID properties:
 -> Atomicity: A transaction consists of many steps, when all the steps in a transaction get completed; it will get reflected in database or if any step fails all the transactions are rolled back.
 -> Consistency: The database will move from one consistent state to another, if the transaction succeeds and remain in the original state, if the transaction fails.
 -> Isolation: Every transaction should operate as if it is the only transaction in the system.
 -> Durability: Once a transaction has completed successfully the updated rows/records must be available for all other transactions on a permanent basis.
 
 8. Can we store pictures in the database and if so, how it can be done?
-   Yes, we can store pictures in the database by Long Raw Data type. This data-type is used to    store binary data for 2 gigabytes of length. But the table can have only on Long Raw data type.
+A)   Yes, we can store pictures in the database by Long Raw Data type. This data-type is used to    store binary data for 2 gigabytes of length. But the table can have only on Long Raw data type.
 
 9. What is the data type of DUAL table?
-   The DUAL table is a one-column table present in oracle database.  The table has a single VARCHAR2 (1) column called DUMMY which has a value of ‘X’.
+A)   The DUAL table is a one-column table present in oracle database.  The table has a single VARCHAR2 (1) column called DUMMY which has a value of ‘X’.
 
 10. What is an oracle schema?
-A user account and its associated data including tables, views, indexes, clusters, sequences, procedures, functions, triggers, packages and database links is known as Oracle schema. Systems, SCOTT etc are default schemas. We can create a new Schema/User. But we can't drop default database schemas.
+A) A user account and its associated data including tables, views, indexes, clusters, sequences, procedures, functions, triggers, packages and database links is known as Oracle schema. Systems, SCOTT etc are default schemas. We can create a new Schema/User. But we can't drop default database schemas.
 
 11. What are the different Oracle Database objects?
--> Tables – set of elements organized in vertical and horizontal
+A) -> Tables – set of elements organized in vertical and horizontal
 -> Views – Virtual table derived from one or more tables
 -> Indexes – Performance tuning method for processing the records
 -> Synonyms – Alias name for tables
@@ -44,10 +44,11 @@ A user account and its associated data including tables, views, indexes, cluster
 -> Table spaces – Logical storage unit in Oracle.
 
 12. What is Sub-query and what are the different types of sub query?
-Sub Query is also called as Nested Query or Inner Query which is used to get data from multiple tables. A sub query is added in the where clause of the main query.
+A) Sub Query is also called as Nested Query or Inner Query which is used to get data from multiple tables. A sub query is added in the where clause of the main query.
 There are two different types of sub queries:
 -> Correlated sub query: A Correlated sub query cannot be as independent query but can reference column in a table listed in the form list of the outer query.
 -> Non-Correlated sub query: This can be evaluated as if it were an independent query. Results of the sub query are submitted to the main query or parent query.
+
 13.What does rollback do?
 Rollback retracts any of the changes resulting from the SQL statements in the transaction.
 14.What is a synonym?
