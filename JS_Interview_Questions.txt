@@ -1140,10 +1140,10 @@ Type of Middleware are:
 
 => Application-level middleware: The application-level middleware method is used to bind to the app object using app.use() method. It applies on all routes.
 //This middleware will execute for each route.  
-app.use(function (req, res, next) {  
-  console.log('Current Time:', Date.now())  
-  next()  
-})  
+	app.use(function (req, res, next) {  
+	  console.log('Current Time:', Date.now())  
+	  next()  
+	})  
 
 => Router-level Middleware: The router-level Middleware is used to bind to a specific instance of express.Router().Built-in Middleware: The built-in Middleware was introduced with version 4.x. It ends the dependency on Connect.
 There are the following built-in middleware functions in Express.js:
