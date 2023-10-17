@@ -114,23 +114,23 @@ EMPLOYEE_ID	INCENTIVE_DATE	INCENTIVE_AMOUNT
 1)Get all employee details from the employee table.
 SELECT * FROM EMPLOYEE;
 
-2)Get First_name, Last Name from employee table.
+2) Get First_name, Last Name from employee table.
 SELECT FIRST_NAME, LAST_NAME 
 FROM EMPLOYEE;
 
-3)Get First_name from employee table using alias name “Employee Name”.
+3) Get First_name from employee table using alias name “Employee Name”.
 SELECT FIRST_NAME as EMPLOYEE_NAME
 FROM EMPLOYEE;
 
-4)Get First_name from employee table in upper case.
+4) Get First_name from employee table in upper case.
 SELECT UPPER (FIRST_NAME)
 FROM EMPLOYEE;
 
-5)Get First_name from employee table in lower case.
+5) Get First_name from employee table in lower case.
 SELECT LOWER (FIRST_NAME)
 FROM EMPLOYEE;
 
-6)Get unique DEPARTMENT from employee table.
+6) Get unique DEPARTMENT from employee table.
 SELECT DISTINCT DEPARTMENT
 FROM EMPLOYEES; 
 
