@@ -1147,17 +1147,17 @@ Type of Middleware are:
 
 => Router-level Middleware: The router-level Middleware is used to bind to a specific instance of express.Router().Built-in Middleware: The built-in Middleware was introduced with version 4.x. It ends the dependency on Connect.
 There are the following built-in middleware functions in Express.js:
--> static: It is used to serve static assets such as HTML files, images, etc.
--> json: It is used to parse the incoming requests with JSON payloads. It is available with Express 4.16.0+
--> urlencoded: It is used to parse the incoming requests with URL-encoded payloads. It is available with Express 4.16.0+
+-- static: It is used to serve static assets such as HTML files, images, etc.
+-- json: It is used to parse the incoming requests with JSON payloads. It is available with Express 4.16.0+
+-- urlencoded: It is used to parse the incoming requests with URL-encoded payloads. It is available with Express 4.16.0+
 
 => Third-party Middleware: There are many third-party middleware available such as:
--> Body-parser
--> Cookie-parser
--> Mongoose
--> Sequelize
--> Cors
--> Express-validator
+-- Body-parser
+-- Cookie-parser
+-- Mongoose
+-- Sequelize
+-- Cors
+-- Express-validator
 Example: var bodyParser = require('body-parser');  
 	app.use(bodyParser.json());  
 	app.use(bodyParser.urlencoded({ extended: false })) 
