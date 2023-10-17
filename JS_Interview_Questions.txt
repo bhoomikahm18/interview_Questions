@@ -1064,28 +1064,8 @@ A) Express.js or Express is a JavaScript backend framework. It is mainly designe
 
 3) Why do we use Express.js?
 A) Express.js is an automatically prebuilt Node.js framework that facilitates us to create server-side web applications faster and smarter. The main reason for choosing Express is its simplicity, minimalism, flexibility, and scalability characteristics.
+      Node.js is an open-source, cross-platform run-time environment used for executing JavaScript code outside of a browser. Node.js is not a framework or a programming language; it is a platform that acts as a web server. Many big companies such as Paypal, Uber, Netflix, Wallmart, etc., are using this. On the other hand, Express is a small framework based on the functionality of Node.js.
 
-A) Node.js is an open-source, cross-platform run-time environment used for executing JavaScript code outside of a browser. Node.js is not a framework or a programming language; it is a platform that acts as a web server. Many big companies such as Paypal, Uber, Netflix, Wallmart, etc., are using this. On the other hand, Express is a small framework based on the functionality of Node.js.
-
-Some key differences between Express.js and Node.js:
-Feature		Express.js						Node.js
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Definition	Express.js is a lightweight and fast backend web		Node.js is an open-source and cross-platform that is used
-		application framework for Node.js.			 to execute JavaScript code outside of a browser.
-Usage		Express.js is used to develop complete web applications 	Node.js is used to build server-side, input-output, event-
-		such as single-page, multi-page, and hybrid web 		driven apps.
-		applications and APIs. It uses approaches and principles 
-		of Node.js.	
-Features		Express has more features than Node.js.		Node.js has fewer features as compared to Express.js.
-Building Block	Express.js is built on Node.js.				Node.js is built on Google's V8 engine.
-Written in	Express.js is written in JavaScript only.			Node.js is written in C, C++, and JavaScript language.
-Framework	Express.js is a framework of Node.js based on its 		Node.js is a run-time platform or environment
-/Platform		functionalities.					designed for server-side execution of JavaScript.	 
-Controllers	Express.js is assigned with controllers.			Node.js is assigned with controllers.
-Routing		Routing is provided in Express.js.			Routing is not provided in Node.js.
-Middleware	Express.js uses middleware to arrange the functions 	Node.js doesn't use any such provision of middleware.
-		systematically on the server-side.	
-Coding		Express is easy to code and requires less coding time.	Node.js requires more coding time as compare to 									Express.js.
 5) How does an Express code look like?
 A) The express.js program is saved with ".js" extension.
 See the example:var express = require('express');    
@@ -1102,11 +1082,11 @@ When you run the Node.js command prompt, the app will listen at the specified se
 Output:  Welcome to Express
 
 6) Write a code to get post a query in Express.js.
-A) var bodyParser = require('body-parser')  
-     app.use( bodyParser.json() );       // to support JSON-encoded   
-     app.use(bodyParser.urlencoded({     // to support URL-encoded   
-        extended: true  
-     }));  
+A)  var bodyParser = require('body-parser')  
+      app.use( bodyParser.json() );       // to support JSON-encoded   
+      app.use(bodyParser.urlencoded({     // to support URL-encoded   
+         extended: true  
+      }));  
 
 7) How can you deal with error handling in Express.js? Explain with an example.
 A) Error handling is much easier in the Express versions over Express 4.0. Use the following steps to do the error handling:
