@@ -75,8 +75,9 @@ CREATE CLUSTERED INDEX index_name ON table_name;
 A) -> GRANT: It gives a privilege to user.
 -> REVOKE: It takes back privileges granted from user.
 
-19.What are different Oracle database objects?
-TABLES, VIEWS, INDEXES, SYNONYMS, SEQUENCES, TABLESPACES etc
+19. What are different Oracle database objects?
+A) TABLES, VIEWS, INDEXES, SYNONYMS, SEQUENCES, TABLESPACES etc
+
 20.Explain about Check?
  Check is used to give a condition in the column, so that the condition must satisfy for each row in the table.
 A check constraint can NOT be defined on a SQL View.
@@ -84,11 +85,14 @@ The check constraint defined on a table must refer to only columns in that table
 A check constraint can NOT include a Sub-query.
 A check constraint can be declared in either a CREATE TABLE statement or in an ALTER TABLE statement.
 21.What are the differences between primary key and foreign key?
-Primary Key	Foreign Key
+Primary Key					Foreign Key
+
 Primary key uniquely identify a record in the table.	Foreign key is a field in the table that is primary key in another table.
-Primary Key can't accept null values.	Foreign key can accept multiple null values.
-By default, Primary key is clustered index and data in the database table is physically organized in the sequence of clustered index.	Foreign key do not automatically create an index, clustered or non-clustered. You can manually create an index on foreign key.
-We can have only one Primary key in a table.	We can have more than one foreign key in a table.
+Primary Key can't accept null values.			Foreign key can accept multiple null values.
+By default, Primary key is clustered index and data in            Foreign key do not automatically create an index, clustered or 
+thedatabase table is physically organized in the                       non-clustered. 
+sequence of clustered index.			                   You can manually create an index on foreign key.
+We can have only one Primary key in a table.		We can have more than one foreign key in a table.
 
 22.What are the advantages and disadvantages of Primary Key?
 Advantages of primary key:
