@@ -1119,8 +1119,8 @@ Use the middleware as following:
 	}  
 
 8) Write the code to start serving static files in Express.js.
-A) app.use(express.static('public'))  
-     app.use('/static', express.static(path.join(__dirname, 'public')))  
+A)  app.use(express.static('public'))  
+      app.use('/static', express.static(path.join(__dirname, 'public')))  
 
 9) What is Middleware in Express.js? 
 A) Middleware is a function invoked by the Express routing layer before the final request handler.
