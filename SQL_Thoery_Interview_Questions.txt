@@ -169,8 +169,9 @@ A) SQL functions have the following uses −
 38. What is the difference between cross joins and natural joins?
 A) The cross join produces the cross product or Cartesian product of two tables. The natural join is based on all the columns having same name and data types in both the tables.
 
-39.What happens if you omit the WHERE clause in a delete statement?
-All the rows in the table are deleted.
+39. What happens if you omit the WHERE clause in a delete statement?
+A) All the rows in the table are deleted.
+
 40.What is the difference between DELETE and TRUNCATE statement in SQL?
 DELETE	TRUNCATE
  DELETE is a DML command.	 TRUNCATE is a DDL command.
