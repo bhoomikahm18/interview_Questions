@@ -1,10 +1,12 @@
 SQL Query Questions
+
 1)Create a table with a single field as primary key.
 CREATE TABLE Students (   
 	   ID INT NOT NULL
 	   Name VARCHAR(255)
 	   PRIMARY KEY (ID)
 	);
+
 2)Create a table with a single field as Unique.
 CREATE TABLE Students (  
 	   ID INT NOT NULL UNIQUE
