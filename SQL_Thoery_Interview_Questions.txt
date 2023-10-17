@@ -78,12 +78,13 @@ A) -> GRANT: It gives a privilege to user.
 19. What are different Oracle database objects?
 A) TABLES, VIEWS, INDEXES, SYNONYMS, SEQUENCES, TABLESPACES etc
 
-20.Explain about Check?
- Check is used to give a condition in the column, so that the condition must satisfy for each row in the table.
-A check constraint can NOT be defined on a SQL View.
-The check constraint defined on a table must refer to only columns in that table. It cannot refer to columns in other tables.
-A check constraint can NOT include a Sub-query.
-A check constraint can be declared in either a CREATE TABLE statement or in an ALTER TABLE statement.
+20. Explain about Check?
+A) -> Check is used to give a condition in the column, so that the condition must satisfy for each row in the table.
+-> A check constraint can NOT be defined on a SQL View.
+-> The check constraint defined on a table must refer to only columns in that table. It cannot refer to columns in other tables.
+-> A check constraint can NOT include a Sub-query.
+-> A check constraint can be declared in either a CREATE TABLE statement or in an ALTER TABLE statement.
+
 21.What are the differences between primary key and foreign key?
 Primary Key					Foreign Key
 
