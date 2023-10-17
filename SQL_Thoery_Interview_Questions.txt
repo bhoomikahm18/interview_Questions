@@ -180,8 +180,9 @@ DELETE statement is used to delete a row from a table	TRUNCATE statement is used
 DELETE is slower than TRUNCATE statement.		TRUNCATE statement is faster than DELETE statement.
 You can rollback data after using DELETE statement.	It is not possible to rollback after using TRUNCATE statement.
           
-41.What port does SQL server run on?
-1433 is the standard port for SQL server.
+41. What port does SQL server run on?
+A) 1433 is the standard port for SQL server.
+
 42.What is "normalization"? "Denormalization"? Why do you sometimes want to denormalize?
  Normalizing data means eliminating redundant information from a table and organizing the data so that future changes to the table are easier.
  Denormalization means allowing redundancy in a table. The main benefit of denormalization is improved performance with simplified data retrieval and manipulation. This is done by reduction in the number of joins needed for data processing.
