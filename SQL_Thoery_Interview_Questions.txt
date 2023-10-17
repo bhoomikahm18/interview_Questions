@@ -190,8 +190,9 @@ A) -> Normalizing data means eliminating redundant information from a table and 
 43. What is the difference between UNION and UNION ALL?
 A) UNION and UNION ALL used to combine (set operation) two or more query results.  UNION will eliminate duplicate rows and UNION ALL will display all rows.
 
-44.When and how oracle database creates a schema?
-Oracle database automatically creates a schema when you create a user.
+44. When and how oracle database creates a schema?
+A) Oracle database automatically creates a schema when you create a user.
+
 45.What is the main component of an oracle server?
 RDBMS.
 46.What is the difference between relation and relationship?
