@@ -63,19 +63,19 @@ ON A.col = B.col;
 6) How to delete a table in SQL?
 DROP TABLE table_name;
 
-7)How to change a table name in SQL?
+7) How to change a table name in SQL?
 ->ALTER TABLE table_name
 	RENAME TO new_table_name;
 ->ALTER TABLE employee
  	RENAME TO employee_information;
 
-8)How to delete a row in SQL?
+8) How to delete a row in SQL?
 ->DELETE FROM table_name
 WHERE [condition];
 ->DELETE FROM employee
 WHERE [age=25];
 
-9)How to create a database in SQL?
+9) How to create a database in SQL?
 CREATE DATABASE database_name.
 
 10) How do I view tables in SQL?
