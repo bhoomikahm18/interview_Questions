@@ -63,13 +63,14 @@ A) -> Drop: It is used to drop the table or keys like primary, foreign from a ta
 16. What is a trigger?
 A) A database trigger is a code or programs that automatically execute with response to some event (before insert, after insert, on update, on delete of a row) on a table or view in a database.
 
-17.What are all the different types of indexes?
-There are three types of indexes:
-UNIQUE INDEX: This indexing does not allow the field to have duplicate values if the column is unique indexed. Unique index can be applied automatically when primary key is defined.
+17. What are all the different types of indexes?
+A) There are three types of indexes:
+-> UNIQUE INDEX: This indexing does not allow the field to have duplicate values if the column is unique indexed. Unique index can be applied automatically when primary key is defined.
 CREATE UNIQUE INDEX index_name ON table_name;
-Clustered Index: This index sort and store the data rows in the table on view based on their key values. Each table can have only one clustered index.
+-> Clustered Index: This index sort and store the data rows in the table on view based on their key values. Each table can have only one clustered index.
 CREATE CLUSTERED INDEX index_name ON table_name;
-Non-Clustered Index: Non Clustered Index does not alter the way it was stored but creates a completely separate object within the table. As a result insert & update command will be faster.
+-> Non-Clustered Index: Non Clustered Index does not alter the way it was stored but creates a completely separate object within the table. As a result insert & update command will be faster.
+
 18.What is Grant and Revoke in SQL?
 GRANT: It gives a privilege to user.
 REVOKE: It takes back privileges granted from user.
