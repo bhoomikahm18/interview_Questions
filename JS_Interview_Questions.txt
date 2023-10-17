@@ -1179,7 +1179,6 @@ body: String,
 date: { type: Date, default: Date.now },
 comments: [{ type: mongoose.Schema.Types.ObjectId, ref: ‘Comment’ }]
 });
-“`
 
 4) How do the Schema and Model objects work together?
 A) The Schema object contains information about the structure of the data in the collection, while the Model object contains functions that allow you to interact with the data in the collection.
