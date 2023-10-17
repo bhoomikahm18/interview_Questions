@@ -48,13 +48,13 @@ Example: SELECT *
 ON A.col = B.col;
 
 5)How to create a table in SQL?
-=> CREATE TABLE table_name (
+-> CREATE TABLE table_name (
 	column1 datatype,
 	column2 datatype,
 	column3 datatype,
    ....
 );
-=> CREATE TABLE employee (
+-> CREATE TABLE employee (
 	name varchar(25),
 	age int,
 	gender varchar(25)
