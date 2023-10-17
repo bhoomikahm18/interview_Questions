@@ -85,7 +85,7 @@ A) -> Check is used to give a condition in the column, so that the condition mus
 -> A check constraint can NOT include a Sub-query.
 -> A check constraint can be declared in either a CREATE TABLE statement or in an ALTER TABLE statement.
 
-21.What are the differences between primary key and foreign key?
+21. What are the differences between primary key and foreign key?
 Primary Key					Foreign Key
 
 Primary key uniquely identify a record in the table.	Foreign key is a field in the table that is primary key in another table.
