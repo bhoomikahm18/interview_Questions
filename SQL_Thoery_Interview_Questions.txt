@@ -199,8 +199,9 @@ A) RDBMS.
 46. What is the difference between relation and relationship?
 A) A relation is another name for a table, whereas a relationship is a way to correlates, or join, two or more tables.
 
-47.When does a transaction finish?
-When it is committed or when it is rolled back.
+47. When does a transaction finish?
+A) When it is committed or when it is rolled back.
+
 48. What is RDBMS? How is it different from DBMS?
  RDBMS stands for Relational Database Management System. The key difference here, compared to DBMS, is that RDBMS stores data in the form of a collection of tables, and relations can be defined between the common fields of these tables. Most modern database management systems like MySQL, Microsoft SQL Server, Oracle, IBM DB2, and Amazon Redshift are based on RDBMS.
 49.What is SQL?
