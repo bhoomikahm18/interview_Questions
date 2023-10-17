@@ -1086,7 +1086,7 @@ Controllers	Express.js is assigned with controllers.			Node.js is assigned with 
 Routing		Routing is provided in Express.js.			Routing is not provided in Node.js.
 Middleware	Express.js uses middleware to arrange the functions 	Node.js doesn't use any such provision of middleware.
 		systematically on the server-side.	
-Coding		Express is easy to code and requires less coding time.	Node.js requires more coding time as compare to 								Express.js.
+Coding		Express is easy to code and requires less coding time.	Node.js requires more coding time as compare to 									Express.js.
 5) How does an Express code look like?
 A) The express.js program is saved with ".js" extension.
 See the example:var express = require('express');    
