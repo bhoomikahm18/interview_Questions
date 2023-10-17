@@ -158,13 +158,14 @@ A) The BETWEEN operator displays rows based on a range of values. The IN conditi
 36. How do you search for a value in a database table when you don’t have the exact value to search for?
 A) In such cases, the LIKE condition operator is used to select rows that match a character pattern. This is also called ‘wildcard’ search. 
 
-37.What are the specific uses of SQL functions?
-SQL functions have the following uses −
-Performing calculations on data
-Modifying individual data items
-Manipulating the output
-Formatting dates and numbers
-Converting data types 
+37. What are the specific uses of SQL functions?
+A) SQL functions have the following uses −
+-> Performing calculations on data
+-> Modifying individual data items
+-> Manipulating the output
+-> Formatting dates and numbers
+-> Converting data types 
+
 38.What is the difference between cross joins and natural joins?
 The cross join produces the cross product or Cartesian product of two tables. The natural join is based on all the columns having same name and data types in both the tables.
 39.What happens if you omit the WHERE clause in a delete statement?
