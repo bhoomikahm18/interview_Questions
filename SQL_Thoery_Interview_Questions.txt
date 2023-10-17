@@ -26,8 +26,9 @@ Properties of transaction can be summarized as ACID properties:
 -> Isolation: Every transaction should operate as if it is the only transaction in the system.
 -> Durability: Once a transaction has completed successfully the updated rows/records must be available for all other transactions on a permanent basis.
 
-8.Can we store pictures in the database and if so, how it can be done?
+8. Can we store pictures in the database and if so, how it can be done?
    Yes, we can store pictures in the database by Long Raw Data type. This data-type is used to    store binary data for 2 gigabytes of length. But the table can have only on Long Raw data type.
+
 9.What is the data type of DUAL table?
    The DUAL table is a one-column table present in oracle database.  The table has a single VARCHAR2 (1) column called DUMMY which has a value of ‘X’.
 10.What is an oracle schema?
