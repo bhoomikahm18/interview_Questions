@@ -62,6 +62,7 @@ ON A.col = B.col;
 
 6)How to delete a table in SQL?
 DROP TABLE table_name;
+
 7)How to change a table name in SQL?
 ->ALTER TABLE table_name
 	RENAME TO new_table_name;
