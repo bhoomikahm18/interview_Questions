@@ -1069,7 +1069,6 @@ A) Express.js is an automatically prebuilt Node.js framework that facilitates us
 A) Node.js is an open-source, cross-platform run-time environment used for executing JavaScript code outside of a browser. Node.js is not a framework or a programming language; it is a platform that acts as a web server. Many big companies such as Paypal, Uber, Netflix, Wallmart, etc., are using this. On the other hand, Express is a small framework based on the functionality of Node.js.
 
 Some key differences between Express.js and Node.js:
-
 Feature		Express.js						Node.js
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Definition	Express.js is a lightweight and fast backend web		Node.js is an open-source and cross-platform that is used
