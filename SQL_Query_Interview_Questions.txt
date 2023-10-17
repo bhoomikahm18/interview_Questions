@@ -46,6 +46,7 @@ Example: SELECT *
 	FROM Table_A A
 	FULL JOIN Table_B B
 ON A.col = B.col;
+
 5)How to create a table in SQL?
 CREATE TABLE table_name (
 	column1 datatype,
