@@ -254,16 +254,17 @@ A) A NULL value indicates the absence of data for a certain cell of a table. Ins
 A) A SELECT command gets zero or more rows from one or more database tables or views. The most frequent data manipulation language (DML) command is SELECT in most applications. SELECT queries define a result set, but not how to calculate it, because SQL is a declarative programming language.
 
 
-61.What are Aggregate functions?
- An aggregate function performs operations on a collection of values to return a single scalar value. Aggregate functions are often used with the GROUP BY and HAVING clauses of the SELECT statement. Following are the widely used SQL aggregate functions:
-AVG() - Calculates the mean of a collection of values.
-COUNT() - Counts the total number of records in a specific table or view.
-MIN() - Calculates the minimum of a collection of values.
-MAX() - Calculates the maximum of a collection of values.
-SUM() - Calculates the sum of a collection of values.
-FIRST() - Fetches the first element in a collection of values.
-LAST() - Fetches the last element in a collection of values.
+61. What are Aggregate functions?
+A) An aggregate function performs operations on a collection of values to return a single scalar value. Aggregate functions are often used with the GROUP BY and HAVING clauses of the SELECT statement. Following are the widely used SQL aggregate functions:
+-> AVG() - Calculates the mean of a collection of values.
+-> COUNT() - Counts the total number of records in a specific table or view.
+-> MIN() - Calculates the minimum of a collection of values.
+-> MAX() - Calculates the maximum of a collection of values.
+-> SUM() - Calculates the sum of a collection of values.
+-> FIRST() - Fetches the first element in a collection of values.
+-> LAST() - Fetches the last element in a collection of values.
 Note: All aggregate functions described above ignore NULL values except for the COUNT function.
+
 62.What are the different types of SQL operators?
 Operators are the special keywords or special characters reserved for performing particular operations. They are also used in SQL queries. We can primarily use these operators within the WHERE clause of SQL commands. It's a part of the command to filters data based on the specified condition. The SQL operators can be categorized into the following types:
 Arithmetic operators: These operators are used to perform mathematical operations on numerical data. The categories of this operators are addition (+), subtraction (-), multiplication (*), division (/), remainder/modulus (%), etc.
