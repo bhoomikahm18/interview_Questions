@@ -143,8 +143,9 @@ A) If two or more tables are joining without join condition will result into Car
 A) -> NVL converts NULL to another specified value.
 -> IS NULL and IS NOT NULL can be used to check specifically to see whether the value of a variable is NULL or not.
 
-33.What is a cursor?
-A cursor is a temporary work area created in the system memory when a SQL statement is executed. A cursor contains information on a select statement and the rows of data accessed by it.
+33. What is a cursor?
+A) A cursor is a temporary work area created in the system memory when a SQL statement is executed. A cursor contains information on a select statement and the rows of data accessed by it.
+
 34.Show the cursor attributes of PL/SQL.
 %ISOPEN: Checks if the cursor is open or not
 %ROWCOUNT: The number of rows that are updated, deleted or fetched.
