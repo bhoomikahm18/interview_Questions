@@ -140,3 +140,91 @@ Most important protoype used in React js are:
 • object
 • element
 
+34) What is JSX?
+JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.
+
+35) Explain how lists work in React.
+We create lists in React as we do in regular JavaScript. Lists display data in an ordered format. The traversal of lists is done using the map() function.
+
+36) Explain the lifecycle methods of components.
+• componentDidMount(): Is executed when the component gets rendered and placed on the DOM.
+• shouldComponentUpdate(): Is invoked when a component determines changes to the DOM and returns a “true” or “false” value based on certain conditions.
+• componentDidUpdate(): Is invoked immediately after rendering takes place.
+• componentWillUnmount(): Is invoked immediately before a component is destroyed and unmounted permanently.
+
+37) What are the features of React? 
+Major features of React are listed below:
+• It uses the virtual DOM instead of the real DOM.
+• It uses server-side rendering.
+• It follows uni-directional data flow or data binding.
+
+38) What are the biggest limitations of React?
+Following is the list of the biggest limitations of React:
+• React is just a library. It is not a complete framework.
+• It has a huge library which takes time to understand.
+• It may be difficult for the new programmers to understand and code.
+• React uses inline templating and JSX, which may be difficult and act as a barrier. It also makes the coding complex.
+
+39) List down the components of Redux.
+Redux is composed of the following components:
+• Action – It’s an object that describes what happened.
+• Reducer –  It is a place to determine how the state will change.
+• Store – State/ Object tree of the entire application is saved in the Store.
+• View – Simply displays the data provided by the Store.
+
+40) What is Lifting State Up in React?
+When several components need to share the same changing data then it is recommended to lift the shared state up to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
+
+41) Why React uses className over class attribute?
+The attribute class is a keyword in JavaScript, and JSX is an extension of JavaScript. That's the principal reason why React uses className instead of class. Pass a string as the className prop.
+render() {
+  return <span className={'menu navigation-menu'}>{'Menu'}</span>
+}
+
+42) Why fragments are better than container divs?
+Below are the list of reasons to prefer fragments over container DOM elements,
+• Fragments are a bit faster and use less memory by not creating an extra DOM node. This only has a real benefit on very large and deep trees.
+• Some CSS mechanisms like Flexbox and CSS Grid have a special parent-child relationships, and adding divs in the middle makes it hard to keep the desired layout.
+
+43) How to use styles in React?
+The style attribute accepts a JavaScript object with camelCased properties rather than a CSS string. This is consistent with the DOM style JavaScript property, is more efficient, and prevents XSS security holes.
+Example :
+const divStyle = {
+  color: "blue",
+  backgroundImage: "url(" + imgUrl + ")",
+};
+function HelloWorldComponent() {
+  return <div style={divStyle}>Hello World!</div>;
+}
+
+44) How to loop inside JSX?
+You can simply use Array.prototype.map with ES6 arrow function syntax.
+For example, the items array of objects is mapped into an array of components:
+<body>
+  {items.map((item) => (
+    <SomeComponent key={item.id} name={item.name} />
+  ))}
+</body>
+
+45) Explain the building blocks of React?
+The five main building blocks of React are:
+• Components: These are reusable blocks of code that return HTML.
+• JSX: It stands for JavaScript and XML and allows to write HTML in React.
+• Props and State: props are like function parameters and State is similar to variables.
+• Context: This allows data to be passed through components as props in a hierarchy.
+• Virtual DOM: It is a lightweight copy of actual DOM which makes DOM manipulation easier.
+
+46) Why is it necessary to start component names with a capital letter?
+In React, it is necessary to start component names with a capital letter. If we start the component name with lower case, it will throw an error as an unrecognized tag. It is because, in JSX, lower case tag names are considered as HTML tags.
+
+47) Mention one difference between Props and State.
+State is mutable while Props are immutable. This means that the state is internal and managed by the component while props are external and managed by anything that renders the component.
+
+48) What does ‘key’ do in React list?
+Keys are used for providing identity to list elements.
+
+49) How will you update props in React?
+It is not possible as we can’t update props in ReactJS as they are read-only.
+
+50) Can JavaScript urls be used in React 16.9?
+Yes, but it will give a warning in the console.
